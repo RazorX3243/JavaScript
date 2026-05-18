@@ -1,0 +1,10 @@
+let amount_1 = 68000;
+let amount_2 = 2600;
+let amount_3 = 1900;
+const USD_to_UAH = 43.7;
+let tax1 = amount_1 * 0.005 + 4500;
+let tax2 = amount_2 * 0.005 + 4500;
+let tax3 = amount_3 * 0.005 + 4500;
+let value = (amount_1) + (amount_2*USD_to_UAH) + (amount_3*USD_to_UAH);
+console.log(`Загальна сума доходу Максима складає ${value}.`);
+console.log(`В кінці кварталу Максиму необхідно сплатити ${tax1 + tax2 + tax3}.`);
